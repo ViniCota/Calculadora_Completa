@@ -1,0 +1,174 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Calculadora'
+  ClientHeight = 197
+  ClientWidth = 334
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object Btn7: TButton
+    Left = 8
+    Top = 37
+    Width = 75
+    Height = 25
+    Caption = '7'
+    TabOrder = 0
+    OnClick = Btn7Click
+  end
+  object BtnMultiplicacao: TButton
+    Left = 251
+    Top = 99
+    Width = 75
+    Height = 25
+    Caption = 'X'
+    TabOrder = 1
+    OnClick = BtnMultiplicacaoClick
+  end
+  object BtnSubtracao: TButton
+    Left = 251
+    Top = 68
+    Width = 75
+    Height = 25
+    Caption = '-'
+    TabOrder = 2
+    OnClick = BtnSubtracaoClick
+  end
+  object BtnAdicao: TButton
+    Left = 251
+    Top = 37
+    Width = 75
+    Height = 25
+    Caption = '+'
+    TabOrder = 3
+    OnClick = BtnAdicaoClick
+  end
+  object Btn4: TButton
+    Left = 8
+    Top = 68
+    Width = 75
+    Height = 25
+    Caption = '4'
+    TabOrder = 4
+    OnClick = Btn4Click
+  end
+  object BtnIgual: TButton
+    Left = 170
+    Top = 130
+    Width = 75
+    Height = 25
+    Caption = '='
+    TabOrder = 5
+    OnClick = BtnIgualClick
+  end
+  object BtnVirgula: TButton
+    Left = 8
+    Top = 130
+    Width = 75
+    Height = 25
+    Caption = ','
+    TabOrder = 6
+    OnClick = BtnVirgulaClick
+  end
+  object Btn8: TButton
+    Left = 89
+    Top = 37
+    Width = 75
+    Height = 25
+    Caption = '8'
+    TabOrder = 7
+    OnClick = Btn8Click
+  end
+  object Btn0: TButton
+    Left = 89
+    Top = 130
+    Width = 75
+    Height = 25
+    Caption = '0'
+    TabOrder = 8
+    OnClick = Btn0Click
+  end
+  object Btn5: TButton
+    Left = 89
+    Top = 68
+    Width = 75
+    Height = 25
+    Caption = '5'
+    TabOrder = 9
+    OnClick = Btn5Click
+  end
+  object Btn1: TButton
+    Left = 8
+    Top = 99
+    Width = 75
+    Height = 25
+    Caption = '1'
+    TabOrder = 10
+    OnClick = Btn1Click
+  end
+  object Btn9: TButton
+    Left = 170
+    Top = 37
+    Width = 75
+    Height = 25
+    Caption = '9'
+    TabOrder = 11
+    OnClick = Btn9Click
+  end
+  object Btn6: TButton
+    Left = 170
+    Top = 68
+    Width = 75
+    Height = 25
+    Caption = '6'
+    TabOrder = 12
+    OnClick = Btn6Click
+  end
+  object Btn2: TButton
+    Left = 89
+    Top = 99
+    Width = 75
+    Height = 25
+    Caption = '2'
+    TabOrder = 13
+    OnClick = Btn2Click
+  end
+  object Btn3: TButton
+    Left = 170
+    Top = 99
+    Width = 75
+    Height = 25
+    Caption = '3'
+    TabOrder = 14
+    OnClick = Btn3Click
+  end
+  object BtnDivisao: TButton
+    Left = 251
+    Top = 130
+    Width = 75
+    Height = 25
+    Caption = '/'
+    TabOrder = 15
+    OnClick = BtnDivisaoClick
+  end
+  object BtnLimpar: TButton
+    Left = 8
+    Top = 161
+    Width = 318
+    Height = 25
+    Caption = 'Limpar'
+    TabOrder = 16
+    OnClick = BtnLimparClick
+  end
+  object Visor: TEdit
+    Left = 8
+    Top = 8
+    Width = 318
+    Height = 23
+    TabOrder = 17
+  end
+end
