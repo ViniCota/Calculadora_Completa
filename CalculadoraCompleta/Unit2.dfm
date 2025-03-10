@@ -3,13 +3,15 @@ object Form2: TForm2
   Top = 0
   Caption = 'Calculadora'
   ClientHeight = 188
-  ClientWidth = 637
+  ClientWidth = 577
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
   TextHeight = 15
   object Btn7: TButton
     Left = 8
@@ -18,7 +20,7 @@ object Form2: TForm2
     Height = 25
     Caption = '7'
     TabOrder = 0
-    OnClick = Btn7Click
+    OnClick = BtnNumeroClick
   end
   object BtnMultiplicacao: TButton
     Left = 251
@@ -27,7 +29,7 @@ object Form2: TForm2
     Height = 25
     Caption = 'X'
     TabOrder = 1
-    OnClick = BtnMultiplicacaoClick
+    OnClick = BtnOperacaoClick
   end
   object BtnSubtracao: TButton
     Left = 251
@@ -36,7 +38,7 @@ object Form2: TForm2
     Height = 25
     Caption = '-'
     TabOrder = 2
-    OnClick = BtnSubtracaoClick
+    OnClick = BtnOperacaoClick
   end
   object BtnAdicao: TButton
     Left = 296
@@ -45,7 +47,7 @@ object Form2: TForm2
     Height = 149
     Caption = '+'
     TabOrder = 3
-    OnClick = BtnAdicaoClick
+    OnClick = BtnOperacaoClick
   end
   object Btn4: TButton
     Left = 8
@@ -54,7 +56,7 @@ object Form2: TForm2
     Height = 25
     Caption = '4'
     TabOrder = 4
-    OnClick = Btn4Click
+    OnClick = BtnNumeroClick
   end
   object BtnIgual: TButton
     Left = 251
@@ -81,7 +83,7 @@ object Form2: TForm2
     Height = 25
     Caption = '8'
     TabOrder = 7
-    OnClick = Btn8Click
+    OnClick = BtnNumeroClick
   end
   object Btn0: TButton
     Left = 89
@@ -90,7 +92,7 @@ object Form2: TForm2
     Height = 25
     Caption = '0'
     TabOrder = 8
-    OnClick = Btn0Click
+    OnClick = BtnNumeroClick
   end
   object Btn5: TButton
     Left = 89
@@ -99,7 +101,7 @@ object Form2: TForm2
     Height = 25
     Caption = '5'
     TabOrder = 9
-    OnClick = Btn5Click
+    OnClick = BtnNumeroClick
   end
   object Btn1: TButton
     Left = 8
@@ -108,7 +110,7 @@ object Form2: TForm2
     Height = 25
     Caption = '1'
     TabOrder = 10
-    OnClick = Btn1Click
+    OnClick = BtnNumeroClick
   end
   object Btn9: TButton
     Left = 170
@@ -117,7 +119,7 @@ object Form2: TForm2
     Height = 25
     Caption = '9'
     TabOrder = 11
-    OnClick = Btn9Click
+    OnClick = BtnNumeroClick
   end
   object Btn6: TButton
     Left = 170
@@ -126,7 +128,7 @@ object Form2: TForm2
     Height = 25
     Caption = '6'
     TabOrder = 12
-    OnClick = Btn6Click
+    OnClick = BtnNumeroClick
   end
   object Btn2: TButton
     Left = 89
@@ -135,7 +137,7 @@ object Form2: TForm2
     Height = 25
     Caption = '2'
     TabOrder = 13
-    OnClick = Btn2Click
+    OnClick = BtnNumeroClick
   end
   object Btn3: TButton
     Left = 170
@@ -144,7 +146,7 @@ object Form2: TForm2
     Height = 25
     Caption = '3'
     TabOrder = 14
-    OnClick = Btn3Click
+    OnClick = BtnNumeroClick
   end
   object BtnDivisao: TButton
     Left = 251
@@ -153,7 +155,7 @@ object Form2: TForm2
     Height = 25
     Caption = '/'
     TabOrder = 15
-    OnClick = BtnDivisaoClick
+    OnClick = BtnOperacaoClick
   end
   object BtnLimpar: TButton
     Left = 4
@@ -187,7 +189,7 @@ object Form2: TForm2
     Height = 25
     Caption = '^'
     TabOrder = 19
-    OnClick = BtnExpoenteClick
+    OnClick = BtnOperacaoClick
   end
   object BtnFatorial: TButton
     Left = 170
@@ -196,7 +198,7 @@ object Form2: TForm2
     Height = 25
     Caption = 'n!'
     TabOrder = 20
-    OnClick = BtnFatorialClick
+    OnClick = BtnOperacaoClick
   end
   object BtnRaiz: TButton
     Left = 251
@@ -205,6 +207,6 @@ object Form2: TForm2
     Height = 25
     Caption = #8730
     TabOrder = 21
-    OnClick = BtnRaizClick
+    OnClick = BtnOperacaoClick
   end
 end
